@@ -1,5 +1,5 @@
 <?php
-   require_once 'produto.php';
+   require_once 'Produto.php';
    if($_SERVER['REQUEST_METHOD']=='POST'){
      $codigo = $_POST['cx_codigo'];
      $produto = $_POST['cx_produto'];
